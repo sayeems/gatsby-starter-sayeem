@@ -5,6 +5,7 @@ require("dotenv").config({
 
 // Use URL from .env if it exists, otherwise fall back on the
 // Pantheon CMS endpoint
+//build
 const url =
   process.env.WPGRAPHQL_URL ||
   `https://${process.env.PANTHEON_CMS_ENDPOINT}/wp/graphql`
