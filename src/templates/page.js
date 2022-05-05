@@ -34,6 +34,7 @@ const PageTemplate = ({ data: { page }, pageContext: { next, previous } }) => {
       >
         <header>
           <h1 itemProp="headline">{page?.title}</h1>
+          <p>Iyan Labao</p>
 
           {/* if we have a featured image for this post let's display it */}
           {featuredImage?.src && (
