@@ -39,6 +39,9 @@ module.exports = {
       options: {
         // the only required plugin option for WordPress is the GraphQL url.
         url,
+        production: {
+          allow404Images: true,
+        },
       },
     },
 
@@ -74,9 +77,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
-        production: {
-          allow404Images: true,
-        },
       },
     },
 
